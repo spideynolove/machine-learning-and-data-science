@@ -1,0 +1,24 @@
+# env
+env
+
+# DS_Store
+*.DS_Store
+
+# Jupyter checkpoints
+*.ipynb_checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model files
+*.pkl
+*.joblib
+
+# Misc (playground/large data file)
+data/bluebook_for_bulldozers/*
+data/bluebook-for-bulldozers/
+data/Online_Retail.xlsx
+data/dog-vision-prediction-probabilites-array.csv
+data/dog-vision-full-model-predictions-with-mobilenetV2.csv
+
+*__MACOSX*
+notebook-playground.ipynb
