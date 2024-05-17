@@ -1,42 +1,42 @@
 # A 6 Step Framework for Approaching Machine Learning Projects 
-Machine learning is broad. The media makes it sound like magic. Reading this article will change that. It will give you an overview of the most common types of problems machine learning can be used for. And at the same time give you a framework to approach your future machine learning proof of concept projects.
+Machine learning is broad. The media makes it sound like magic. Reading this article will change that. It will give you an overview of the **most common types of problems** machine learning can be used for. And at the same time give you a **framework to approach your future machine learning proof** of concept projects.
 
 First, we’ll clear up some definitions.
 
 How is machine learning, artificial intelligence and data science different?
 
-These three topics can be hard to understand because there are no formal definitions. Even after being a machine learning engineer for over a year, I don’t have a good answer to this question. I’d be suspicious of anyone who claims they do.
+These **three topics** can be hard to understand because there are no formal definitions. Even after being a machine learning engineer for over a year, I don’t have a good answer to this question. I’d be suspicious of anyone who claims they do.
 
-To avoid confusion, we’ll keep it simple. For this article, you can consider machine learning the process of finding patterns in data to understand something more or to predict some kind of future event.
+To avoid confusion, we’ll keep it simple. For this article, you can consider machine learning the process of **finding patterns in data** to understand something more or to predict some kind of future event.
 
 The following steps have a bias towards building something and seeing how it works. Learning by doing.
 
 ## 6 steps for your next machine learning project
-A machine learning pipeline can be broken down into three major steps. Data collection, data modelling and deployment. All influence one another.
+A machine learning pipeline can be broken down into **three major steps**. **Data collection, data modelling and deployment**. All influence one another.
 
-You may start a project by collecting data, model it, realise the data you collected was poor, go back to collecting data, model it again, find a good model, deploy it, find it doesn’t work, make another model, deploy it, find it doesn’t work again, go back to data collection. It’s a cycle.
+You may start a project by **collecting data, model it, realise the data you collected was poor, go back to collecting data, model it again, find a good model, deploy it, find it doesn’t work, make another model, deploy it, find it doesn’t work again, go back to data collection**. It’s a cycle.
 
 Wait, what does model mean? What’s does deploy mean? How do I collect data?
 
 Great questions.
 
-How you collect data will depend on your problem. We will look at examples in a minute. But one way could be your customer purchases in a spreadsheet.
+How you **collect data** will depend on your problem. We will look at examples in a minute. But one way could be your customer purchases in a spreadsheet.
 
-Modelling refers to using a machine learning algorithm to find insights within your collected data.
+Modelling refers to **using a machine learning algorithm to find insights** within your collected data.
 
-What’s the difference between a normal algorithm and a machine learning algorithm?
+What’s the difference between a **normal** algorithm and a **machine learning** algorithm?
 
-Like a cooking recipe for your favourite chicken dish, a normal algorithm is a set of instructions on how to turn a set of ingredients into that honey mustard masterpiece.
+Like a **cooking recipe** for your favourite chicken dish, a normal algorithm is a set of instructions on how to turn a set of ingredients into that honey mustard masterpiece.
 
 What makes a machine learning algorithm different is instead of having the set of instructions, you start with the ingredients and the final dish ready to go. The machine learning algorithm then looks at the ingredients and the final dish and works out the set of instructions.
 
-There are many different types of machine learning algorithms and some perform better than others on different problems. But the premise remains, they all have the goal of finding patterns or sets of instructions in data.
+There are **many different types of machine learning algorithms** and some perform better than others on different problems. But the premise remains, they all have the goal of finding patterns or sets of instructions in data.
 
-Deployment is taking your set of instructions and using it in an application. This application could be anything from recommending products to customers on your online store to a hospital trying to better predict disease presence.
+**Deployment is** taking your set of instructions and **using it in an application**. This application could be anything from recommending products to customers on your online store to a hospital trying to better predict disease presence.
 
 The specifics of these steps will be different for each project. But the principles within each remain similar.
 
-This article focuses on data modelling. It assumes you have already collected data, and are looking to build a machine learning proof of concept with it. Let’s break down how you might approach it.
+This article focuses on **data modelling**. It assumes you have already collected data, and are looking to build a machine learning proof of concept with it. Let’s break down how you might approach it.
 
 | ![](../images/ml101-6-step-ml-framework.png) | 
 |:--:| 
